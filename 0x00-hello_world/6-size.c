@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point tjis is program that prints the size of various types on the computer 
+ * compiled and run on.
  *
  * Return: Always 0 (Success)
  */
