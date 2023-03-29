@@ -13,12 +13,12 @@ int main(void)
 		putchar(i + '0');
 		if (i == 9)
 		{
-			putchar('$');
 			break;
 		}
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 	}
-	putchar('\n');
+	putchar('$\n');
 
 	return (0);
 }
