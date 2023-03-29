@@ -8,9 +8,9 @@ int main(void)
 {
 	    int i;
 
-	for(i = 0 ; i < 16 ; i++)
+	for (i = 0 ; i < 16 ; i++)
 	{
-		if(i < 10)
+		if (i < 10)
 		{
 			putchar(i + '0');
 		}
@@ -18,8 +18,8 @@ int main(void)
 		{
 			putchar(i - 10 + 'a');
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 
 	return (0);
 }
