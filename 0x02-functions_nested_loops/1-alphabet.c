@@ -3,6 +3,7 @@
 /**
  * main - check the code
  *
+ * print_alphabet - printing alphabet
  * Return: Always 0.
  */
 void print_alphabet(void)
@@ -14,8 +15,9 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
+	return;
 int main(void)
 {
+	print_alphabet();
 	return (0);
 }
