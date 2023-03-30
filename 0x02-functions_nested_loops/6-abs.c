@@ -6,10 +6,10 @@
  *
  * Return: the absolute value of an integer
  */
-int _abs(int)
+int _abs(int r)
 {
 	int j;
 
-	j = abs();
+	j = abs(r);
 	return (j);
 }
