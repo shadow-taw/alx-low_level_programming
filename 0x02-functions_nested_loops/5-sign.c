@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * print_sign - check if lower
  * @n: a number
@@ -10,17 +9,17 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
-		putchar('+');
 	}
 	else if (n == 0)
 	{
+		_putchar('0');
 		return (0);
-		putchar('0');
 	}
 	else
 	{
+		_putchar('-');
 		return (-1);
-		putchar('-');
 	}
 }
