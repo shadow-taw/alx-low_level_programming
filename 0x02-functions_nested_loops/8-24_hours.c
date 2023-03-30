@@ -2,9 +2,7 @@
 #include <limits.h>
 /**
  * jack_bauer - print every minut of day
- * @i: present hours
- *
- * @j: present minutes
+ * Return: void
  */
 void jack_bauer(void)
 {
