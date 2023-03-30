@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _abs - computes the absolute value of an integer
  * @int: a number positive or negative
@@ -9,6 +10,6 @@ int _abs(int)
 {
 	int j;
 
-	j = _abs();
+	j = abs();
 	return (j);
 }
