@@ -3,7 +3,7 @@
  * print_sign - check if lower
  * @n: a number
  *
- * Return: 1 if lower case. 0 if not
+ * Return: + and 1 . or 0 and 0 . or - and -1
  */
 int print_sign(int n)
 {
