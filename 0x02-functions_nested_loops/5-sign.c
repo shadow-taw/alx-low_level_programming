@@ -21,6 +21,6 @@ int print_sign(int n)
 	else
 	{
 		putchar('-');
-		putchar(1);
+		return(-1);
 	}
 }
