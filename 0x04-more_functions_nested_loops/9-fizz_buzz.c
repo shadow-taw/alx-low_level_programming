@@ -6,9 +6,8 @@
 int main(void)
 {
 	int i;
-	int c = 100;
 
-	for (i = 1; i <= c; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 5 == 0 && i % 3 == 0)
 		{
