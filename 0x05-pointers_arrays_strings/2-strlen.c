@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * _strlen - cont the lenght of a name
  * @s: the name value
