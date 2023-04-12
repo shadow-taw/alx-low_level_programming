@@ -25,9 +25,11 @@ char *create_array(unsigned int size, char c)
 		}
 		else
 		{
-			return (NULL);
+			return (0);
 		}
 	}
 	else
-		return (NULL);
+	{
+		return (0);
+	}
 }
