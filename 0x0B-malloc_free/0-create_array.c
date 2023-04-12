@@ -18,6 +18,11 @@ char *create_array(unsigned int size, char c)
 		{
 			p[i] = c;
 		}
+		if (p == NULL)
+		{
+			fprintf(stderr, "not enough memory left!\n");
+			return (1);
+		}
 		return (p);
 		free(p);
 	}
