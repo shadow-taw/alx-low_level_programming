@@ -20,11 +20,13 @@ char *create_array(unsigned int size, char c)
 		}
 		if (p == NULL)
 		{
-			fprintf(stderr, "not enough memory left!\n");
 			return (NULL);
 		}
-		return (p);
-		free(p);
+		else
+		{
+			return (p);
+			free(p);
+		}
 	}
 	else
 		return (NULL);
