@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 /**
  * string_nconcat - contains s1 followed by the first n bytes of s2
  * @s1: first string
