@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "main.h"
 /**
  * string_nconcat - contains s1 followed by the first n bytes of s2
@@ -13,8 +11,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int i, l, m, j;
 
-	l = strlen(s1);
-	m = strlen(s2);
+	for (l = 0; s1[l] != '\0'; l++)
+	;
+	for (m = 0; s2[m] != '\0'; m++)
+	;
 	char *s = malloc(l + m + 1);
 
 	if (s1 == NULL)
