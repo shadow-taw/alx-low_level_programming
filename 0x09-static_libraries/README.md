@@ -1,1 +1,0 @@
-Directory about static libraries
